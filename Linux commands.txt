@@ -1,0 +1,46 @@
+change password : passwd 
+display date : date 
+create directory : mkdir directoryName
+direct output of man pages for date to mydate : man daate > mydate
+move mydate into mydir : mv mydate mydir/
+copy mydate to ourdate : cp mydate ourdate
+list contents in dir : ls
+long listing : ls -l ourdate
+name of current working dir : pwd
+display first 5 lines of file : head -5 fileName
+display last 8 lines of file : tail -8 fileName
+remove directory : rmdir directoryName
+remove file : rm fileName
+wordcount : wc fileName
+display file contents : cat fileName
+change directory : cd
+Redirect the output of ls command to a file named outfile. Use this as an
+input file for remaining commands : man ls > outfile
+
+COMMANDS ARE CASE SENSITIVE
+man – information of any command or file or directory
+passwd – set or change the password
+ls – list command – checks whether the file is present in the system or not
+
+mkdir _directory name_ – make directory 
+pwd – present working directory
+rmdir – remove directory
+cd – change directory
+
+cat > _file name.ext_ – create file (after pressing enter key and press ctrl+d)
+	cat _file name.ext _ – to check the content of the file
+	cat >> _file name.ext_ – append the contents of the file (ctrl+d after appending)
+	rm _ file name.ext _ – delete the file
+	cmp – compare 2 files 
+	            [no output if both are same, line no and byte no from where they are different]
+	
+	cp file1.txt file2.txt – to copy the file
+	mv
+
+	wc _ file name.ext _ – word count command – 
+		Output: (no of sentences) (no of words) (no of characters)
+		Ex: This is test file [Output = 1 4 18]
+
+	date – to get current date
+	cal – to display calendar 
+		
